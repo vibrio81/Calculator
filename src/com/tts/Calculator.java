@@ -58,7 +58,13 @@ package com.tts;
             return Math.tan(Math.toRadians(num));
         }
 
-*/
+*/      public double pow(double a, double b){
+            return Math.pow(a,b);
+        }
+
+        public double log(int num){
+            return Math.log(num);
+        }
         public int factorial(int n){
 
             return (n == 1 || n == 0) ? 1 : n * factorial (n - 1);
